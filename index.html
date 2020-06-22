@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="container">
+        <div class="vanilla-project-wrapper">
         <div class="vanilla-project">
+            <div class="overview">
     <h1><strong>Palma de Mallorca</strong></h1>
     <ul>
         <li>
@@ -19,11 +21,16 @@
             Clear
         </li>
     </ul>
+</div>
     <div class="row">
         <div class="col-sm-6">
+            <div class="clearfix weather-temperature">
             <img src="https://cdn3.iconfinder.com/data/icons/photography-54/64/sunny-mode-camera-photography-512.png"
-            alt="clear" width="100" height="100" />
-            20℃ | ºF
+            alt="Clear" class="float-left" width="100" height="100" />
+            <div class="float-left">
+            <strong>20</strong><span class="units">℃ | <a href="#">ºF</a> </span>
+            </div>
+          </div>
         </div>
         <div class="col-sm-6">
             <ul>
@@ -39,11 +46,13 @@
             </ul>
         </div>
     </div>
-
+</div>
+    
     <small>
         <a href="https://github.com/KatieCode-6/vanilla-project" target="_blank">Open-source code</a> by Katie Kovacova
     </small>
-      </div>
+</div>
+      
     </div>
     
     <script src="src/app.js"></script>
