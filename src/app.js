@@ -40,6 +40,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "025dbd8bd1860456ace0cde3c332dc7f";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Palma de Mallorca&appid=${apiKey}&units=metric`;
+let city = "London";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
