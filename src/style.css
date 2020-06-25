@@ -1,5 +1,6 @@
 body {
     font-family: arial, sans-serif;
+    
 }
 
 h1 {
@@ -9,6 +10,8 @@ h1 {
     margin-bottom: 0;
     
 }
+
+
 
 
 li {
@@ -35,6 +38,7 @@ ul {
     padding: 20px;
     border: 1px solid #dadde1;
     border-radius: 10px;
+    background-color: rgb(247, 217, 110);
 }
 
 .vanilla-project-wrapper {
